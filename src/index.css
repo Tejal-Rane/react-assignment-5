@@ -1,0 +1,87 @@
+.img{
+  width:200px;
+  height: 100px;
+}
+
+/* img.banners{
+  background-color: blue;
+  width: 50%;
+  height: 10%;
+}
+@media screen and (max-width:600px) {
+  img.banners{
+    width: 100%;
+    height: 10%;
+  }
+} */
+
+.banners{
+  width: 100%;
+  height: 350px;
+}
+
+.div_1{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height:auto;
+  background-color: rgb(228, 240, 240);
+  box-shadow: 3px 3px 5px rgb(117, 114, 110);
+}
+ .Ediv{
+   
+   flex-direction: row;
+   margin: 5px 5px;
+   width: 250px;
+   height:auto;
+   box-shadow: 2px 3px 4px rgb(96, 104, 101);
+   /* border: 2px solid rgb(0, 0, 0); */
+ }
+ .Eimg img{
+   margin: 5px 23px;
+   width:200px;
+   height: 250px;
+ }
+ .flex-container h1{
+   text-align: center;
+ }
+ .flex-container h5{
+  text-align: center;
+}
+.Ediv h6{
+  text-align: center;
+}
+.Ediv>.showall{
+  margin: 4px 70px;
+  /* margin-left: 60px; */
+  background-color: black;
+}
+.Ediv>.showall:hover{
+  background-color: deepskyblue;
+ color:black;
+}
+.flex-container h3{
+  text-align: center;
+}
+.flex-container>.timer{
+  display: flex;
+  justify-content: center;
+  margin: 2px 6px;
+  
+}
+.flex-container>.timer>.icon{
+  font-size: 30px;
+  margin-top: 10px;
+}
+.flex-container>.timer>.count{
+  margin-left: 10px;
+}
+.displayedTime>.inline.left>.count{
+  font-size: 30px;
+}
+
+
+ 
+
+

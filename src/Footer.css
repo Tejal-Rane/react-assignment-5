@@ -1,0 +1,20 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    height:auto;
+    margin: 5px 5px;
+    color:rgb(255, 247, 247);
+    
+   background-color: black;
+}
+.footer div{
+    justify-content: space-between;
+    margin: 10px 14px;
+}
+.footer h5{
+    text-align: center;
+}
+ 
